@@ -19,6 +19,7 @@ print("HelloWorld!")
 ## 必要条件
 
 Python 3.x
+argparse モジュール
 
 ## 使い方
 
