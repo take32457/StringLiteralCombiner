@@ -1,4 +1,4 @@
-# String Combiner
+# String Literal Combiner
 
 ## 概要
 
@@ -12,7 +12,9 @@ Python 3.x
 
 以下のようにコマンドラインから実行します。
 
-'''python string_combiner.py inputfile [-o outputfile] [-d]'''
+'''
+python string_combiner.py inputfile [-o outputfile] [-d]
+'''
 
 ### 引数
 
