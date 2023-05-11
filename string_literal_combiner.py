@@ -22,7 +22,7 @@ def replace_string_literals(input_file, output_file='', debug=False):
         if matches is None:
             break
 
-        replaced_str = regex.sub(lambda m: '"' + m.group(2) + m.group(4) + '"', input_str)
+        replaced_str = regex.sub(lambda m: m.group(1) + m.group(2) + m.group(4) + m.group(1), input_str)
         input_str = replaced_str
         if debug:
             print(input_str)
