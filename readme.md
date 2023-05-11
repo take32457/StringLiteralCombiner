@@ -12,9 +12,9 @@ Python 3.x
 
 以下のようにコマンドラインから実行します。
 
-'''
+```
 python string_combiner.py inputfile [-o outputfile] [-d]
-'''
+```
 
 ### 引数
 
