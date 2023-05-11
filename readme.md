@@ -12,7 +12,7 @@ Python 3.x
 
 以下のようにコマンドラインから実行します。
 
-```
+```python
 python string_combiner.py inputfile [-o outputfile] [-d]
 ```
 
