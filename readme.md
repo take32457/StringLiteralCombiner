@@ -4,6 +4,18 @@
 
 このプログラムは、入力ファイル内の連結された文字列リテラルを置換するPythonスクリプトです。
 
+## 例
+
+```python
+print("Hel" +  "lo" + "W"+'or'+"ld!")
+```
+
+to:
+
+```python
+print("HelloWorld!")
+```
+
 ## 必要条件
 
 Python 3.x
@@ -12,7 +24,7 @@ Python 3.x
 
 以下のようにコマンドラインから実行します。
 
-```python
+```
 python string_combiner.py inputfile [-o outputfile] [-d]
 ```
 
